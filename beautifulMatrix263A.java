@@ -1,5 +1,5 @@
 import java.util.*;
-public class test {
+public class beautifulMatrix263A {
     public static void main(String argv[]) {
         int n, index_of_one = 0, answer = 0;
         Scanner sc = new Scanner(System.in);
