@@ -8,7 +8,8 @@ public class NastyaAndDoor {
             int n = sc.nextInt(), k = sc.nextInt();
             int ar[] = new int[n];
             for(int i = 0; i < n; i++) ar[i] = sc.nextInt();
-            int max_no_peaks = 0, left_index = 0;
+            
+            int max_no_peaks = 0, left_index = 1;
             boolean has = false;
             for(int i = 1; i < k-1; i++) {
                 if(ar[i] > ar[i-1] && ar[i] > ar[i+1]){ max_no_peaks++;
@@ -30,8 +31,8 @@ public class NastyaAndDoor {
                 if(ar[start+1] > ar[start] && ar[start+1] > ar[start+2]) has=true;
                 else has = false;
             }
-
             
+        
             System.out.println(max_no_peaks+1 + " " + left_index);
 
         }
