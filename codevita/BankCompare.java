@@ -18,7 +18,7 @@ public class BankCompare {
 				banks[op] += sum*12 * period;				
 			}
 			
-		}
+		} sc.close();
 		if(banks[0] < banks[1]) System.out.println("Bank A");
 		else System.out.println("Bank B");
 		
