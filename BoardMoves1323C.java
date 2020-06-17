@@ -1,6 +1,9 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class BoardMoves1323C {
     public static void main(String argv[]) throws IOException {
@@ -25,6 +28,7 @@ public class BoardMoves1323C {
             System.out.println(ans);
 
         }
+        ArrayList<Integer> alist = new ArrayList<>();
 
     }
 
